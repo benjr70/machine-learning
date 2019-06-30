@@ -2,6 +2,8 @@ import pandas as pd
 import numpy
 import quandl
 import math
+import numpy as np
+from sklearn import preprocessing, cross_validation, svm
 
 
 df = quandl.get('WIKI/NCR')
